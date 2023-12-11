@@ -1,0 +1,64 @@
+/*Estilos Generales*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(23, 41, 56);
+}
+
+/*Contenedores*/
+.contenedor-principal {
+  width: 50vw;
+  height: 40vw;
+  max-width: 350px;
+  max-height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.colores {
+  margin: 5px;
+  padding: 5px;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+datalist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  writing-mode: vertical-lr;
+  width: 330px;
+  font-size: 20px;
+}
+
+option {
+  padding: 0;
+}
+
+input[type="range"] {
+  width: 300px;
+  margin: 0;
+}
+
+p, label {
+  margin: 20px;
+}

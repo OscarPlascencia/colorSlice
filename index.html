@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/jpg" href="imagenes/favicon.jpg" />
+  </head>
+  <body>
+    <main class="contenedor-principal">
+      <div class="contenedor-interno">
+        <div class="colores">
+          <label for="rojo">Rojo (R)</label>
+          <input id="rojo" type="range" min="0" max="255" value="23" step="1" list="markers"/>
+          <datalist id="markers">
+            <option value="0" label="0"></option>
+            <option value="50" label="50"></option>
+            <option value="100" label="100"></option>
+            <option value="150" label="150"></option>
+            <option value="200" label="200"></option>
+            <option value="255" label="255"></option>
+          </datalist>
+          <p id="texto-rojo"></p>
+        </div>
+        <div class="colores">
+          <label for="verde">Verde (G)</label>
+          <input id="verde" type="range" min="0" max="255" value="41" step="1" list="markers"/>
+          <datalist id="markers">
+            <option value="0">0</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+            <option value="200">200</option>
+            <option value="255">255</option>
+          </datalist>
+          <p id="texto-verde"></p>
+        </div>
+        <div class="colores">
+          <label for="azul">Azul (B)</label>
+          <input id="azul" type="range" min="0" max="255" value="56" step="1" list="markers"/>
+          <datalist id="markers">
+            <option value="0">0</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+            <option value="200">200</option>
+            <option value="255">255</option>
+          </datalist>
+          <p id="texto-azul"></p>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
